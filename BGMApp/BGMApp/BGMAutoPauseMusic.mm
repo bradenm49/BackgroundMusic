@@ -39,7 +39,7 @@
 // and other audio can have short periods of silence without causing music to play and quickly pause again. Of course, it's a
 // trade-off against how long the music will overlap the other audio before it gets paused and how long the music will stay paused
 // after a sound that was only slightly longer than the pause delay.
-static UInt64 const kPauseDelayNSec = 1500 * NSEC_PER_MSEC;
+static UInt64 const kPauseDelayNSec = 1750 * NSEC_PER_MSEC;
 // The delay before unpausing the music player is proportional to how long we paused it for, bounded by these limits. This makes it
 // a bit less annoying when a sound is just long enough to cause an auto-pause.
 //
